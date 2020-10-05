@@ -24,7 +24,7 @@ const Header = () => {
   return (
     <Navbar color="info" light expand="md">
       <NavbarBrand>
-        <Link to="/" className="text-white">
+        <Link to="/" style={{ textDecoration: "none" }} className="text-white">
           MyAuthApp
         </Link>
       </NavbarBrand>
