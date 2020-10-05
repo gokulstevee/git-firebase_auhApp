@@ -41,8 +41,9 @@ const Header = () => {
           {context.user ? (
             <NavItem>
               <NavLink
+                style={{ cursor: "pointer" }}
                 onClick={() => {
-                  context.setuser(null);
+                  context.setUser(null);
                 }}
                 className="text-white"
               >

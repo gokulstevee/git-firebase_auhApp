@@ -41,11 +41,11 @@ const SignIn = () => {
   };
 
   const handleSubmit = (e) => {
-    e.peventDefault();
+    e.preventDefault();
     handleSignIn();
   };
 
-  if (context.user?.email) {
+  if (context.user?.uid) {
     return <Redirect to="/" />;
   }
   return (
