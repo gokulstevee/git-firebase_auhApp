@@ -35,14 +35,14 @@ function App() {
     <Router>
       <ToastContainer />
       <UserContext.Provider value={{ user, setUser }}>
-        <Header />
+          <Header />
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/signin" component={SignIn} />
           <Route path="/signup" component={SignUp} />
           <Route path="*" component={PageNotFound} />
         </Switch>
-        <Footer />
+          <Footer />
       </UserContext.Provider>
     </Router>
   );
