@@ -16,7 +16,7 @@ import {
 import firebase from "firebase/app";
 import { Redirect } from "react-router-dom";
 import { toast } from "react-toastify";
-import { UserContext } from "../components/UserContext";
+import { UserContext } from "../context/UserContext";
 
 const SignIn = () => {
   const context = useContext(UserContext);

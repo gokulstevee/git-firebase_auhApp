@@ -19,7 +19,7 @@ import Home from "./pages/Home";
 import SignIn from "./pages/SignIn";
 import SignUp from "./pages/SignUp";
 import PageNotFound from "./pages/PageNotFound";
-import { UserContext } from "./components/UserContext";
+import { UserContext } from "./context/UserContext";
 import Footer from "./layouts/Footer";
 import Header from "./layouts/Header";
 

@@ -14,7 +14,7 @@ import {
 } from "reactstrap";
 
 import firebase from "firebase/app";
-import { UserContext } from "../components/UserContext";
+import { UserContext } from "../context/UserContext";
 import { Redirect } from "react-router-dom";
 import { toast } from "react-toastify";
 
